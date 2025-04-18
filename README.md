@@ -68,7 +68,7 @@ curl http://localhost:3000/messages
 
 ### Dockerfile
 
-- Based on `node:18-alpine`
+- Based on `node:slim`
 - Installs dependencies and runs the app
 - Exposes port 3000
 
@@ -88,7 +88,6 @@ Excludes unnecessary files from the Docker image:
 ```
 node_modules
 npm-debug.log
-Dockerfile
 docker-compose.yml
 .git
 .gitignore
