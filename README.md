@@ -37,7 +37,7 @@ This project demonstrates how to:
 
 ```bash
 git clone https://github.com/your-username/node-mongo-docker-app.git
-cd node-mongo-docker-app
+cd Full\ Stack\ Microservice\ with\ Docker\ Compose
 ```
 
 ### 2. Start the app with Docker Compose
